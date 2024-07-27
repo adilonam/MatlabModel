@@ -1,0 +1,15 @@
+
+%==============================================================================
+% Step 1: Read in the data
+%==============================================================================
+load sample.mat
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('load')" style="font-weight:bold">load</a>
+Unable to read file 'sample.mat'. No such file or directory.
+} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Example using povided sample data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+clear all; clc;
+delete example.diary;
+diary  example.diary;
